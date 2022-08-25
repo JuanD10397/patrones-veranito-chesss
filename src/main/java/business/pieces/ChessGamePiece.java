@@ -148,7 +148,6 @@ public abstract class ChessGamePiece{
                         break;
                     }
                 }
-                break;
             }
         }
         return moves;
@@ -178,10 +177,6 @@ public abstract class ChessGamePiece{
                     if ( isEnemy( board, i, pieceColumn ) ){
                         break;
                     }
-                }
-                else
-                {
-                    break;
                 }
             }
         }
@@ -213,10 +208,6 @@ public abstract class ChessGamePiece{
                         break;
                     }
                 }
-                else
-                {
-                    break;
-                }
             }
         }
         return moves;
@@ -246,10 +237,6 @@ public abstract class ChessGamePiece{
                     if ( isEnemy( board, pieceRow, i ) ){
                         break;
                     }
-                }
-                else
-                {
-                    break;
                 }
             }
         }
@@ -281,11 +268,6 @@ public abstract class ChessGamePiece{
                 }
                 else if ( isEnemy( board, pieceRow - i, pieceColumn - i ) ){
                     moves.add( ( pieceRow - i ) + "," + ( pieceColumn - i ) );
-                    count++;
-                    break;
-                }
-                else
-                {
                     break;
                 }
             }
@@ -318,11 +300,6 @@ public abstract class ChessGamePiece{
                 }
                 else if ( isEnemy( board, pieceRow - i, pieceColumn + i ) ){
                     moves.add( ( pieceRow - i ) + "," + ( pieceColumn + i ) );
-                    count++;
-                    break;
-                }
-                else
-                {
                     break;
                 }
             }
@@ -355,11 +332,6 @@ public abstract class ChessGamePiece{
                 }
                 else if ( isEnemy( board, pieceRow + i, pieceColumn - i ) ){
                     moves.add( ( pieceRow + i ) + "," + ( pieceColumn - i ) );
-                    count++;
-                    break;
-                }
-                else
-                {
                     break;
                 }
             }
@@ -392,11 +364,6 @@ public abstract class ChessGamePiece{
                 }
                 else if ( isEnemy( board, pieceRow + i, pieceColumn + i ) ){
                     moves.add( ( pieceRow + i ) + "," + ( pieceColumn + i ) );
-                    count++;
-                    break;
-                }
-                else
-                {
                     break;
                 }
             }
