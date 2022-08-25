@@ -11,6 +11,7 @@ import business.pieces.Knight;
 import business.pieces.Pawn;
 import business.pieces.Queen;
 import business.pieces.Rook;
+import business.pieces.Bishop;
 
 import java.awt.GridLayout;
 // -------------------------------------------------------------------------
