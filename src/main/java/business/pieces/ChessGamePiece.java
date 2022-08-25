@@ -3,10 +3,10 @@ import java.awt.Color;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 
-import ChessGameBoard;
-import ChessGameEngine;
-import ChessGraveyard;
-import ChessPanel;
+import business.game.ChessGameEngine;
+import gui.ChessGameBoard;
+import gui.ChessGraveyard;
+import gui.ChessPanel;
 // -------------------------------------------------------------------------
 /**
  * Abstract class that is used to represent a game piece on the chess board.

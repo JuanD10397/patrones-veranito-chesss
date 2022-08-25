@@ -1,9 +1,13 @@
+package business.game;
 import java.util.ArrayList;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 
 import business.pieces.ChessGamePiece;
 import business.pieces.King;
+import gui.BoardSquare;
+import gui.ChessGameBoard;
+import gui.ChessPanel;
 
 import java.awt.event.MouseEvent;
 // -------------------------------------------------------------------------
