@@ -1,3 +1,5 @@
+package business.pieces;
+
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 // -------------------------------------------------------------------------
