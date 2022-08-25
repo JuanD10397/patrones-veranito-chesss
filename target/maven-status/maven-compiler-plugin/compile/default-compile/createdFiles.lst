@@ -8,12 +8,12 @@ gui\ChessGameBoard$BoardListener.class
 gui\BoardSquare.class
 business\pieces\Pawn.class
 business\pieces\Knight.class
-gui\ChessMain.class
 business\pieces\ChessGamePiece.class
 gui\ChessPanel.class
 business\pieces\Bishop.class
 gui\ChessGameBoard$1.class
 gui\ChessGameBoard.class
+ChessMain.class
 gui\ChessGraveyard.class
 gui\ChessMenuBar$1.class
 business\pieces\Rook.class
