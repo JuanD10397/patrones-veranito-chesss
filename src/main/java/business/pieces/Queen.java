@@ -1,10 +1,7 @@
 package business.pieces;
 import javax.swing.ImageIcon;
-
 import gui.ChessGameBoard;
-
 import java.util.ArrayList;
-// import java.awt.Color;
 // -------------------------------------------------------------------------
 /**
  * Represents a Queen game piece.
