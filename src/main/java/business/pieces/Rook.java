@@ -1,4 +1,8 @@
+package business.pieces;
 import javax.swing.ImageIcon;
+
+import ChessGameBoard;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;

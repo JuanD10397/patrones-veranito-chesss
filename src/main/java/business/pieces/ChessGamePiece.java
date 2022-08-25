@@ -1,6 +1,12 @@
+package business.pieces;
 import java.awt.Color;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
+
+import ChessGameBoard;
+import ChessGameEngine;
+import ChessGraveyard;
+import ChessPanel;
 // -------------------------------------------------------------------------
 /**
  * Abstract class that is used to represent a game piece on the chess board.

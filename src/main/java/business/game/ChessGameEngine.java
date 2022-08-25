@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.awt.Color;
 import javax.swing.JOptionPane;
+
+import business.pieces.ChessGamePiece;
+import business.pieces.King;
+
 import java.awt.event.MouseEvent;
 // -------------------------------------------------------------------------
 /**

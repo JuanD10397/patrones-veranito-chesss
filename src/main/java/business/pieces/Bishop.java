@@ -1,5 +1,7 @@
 package business.pieces;
 
+import gui.ChessGameBoard;
+
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 // -------------------------------------------------------------------------

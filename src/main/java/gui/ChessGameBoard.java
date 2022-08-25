@@ -1,8 +1,17 @@
+package gui;
 import java.util.ArrayList;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.Color;
 import javax.swing.JPanel;
+
+import business.pieces.ChessGamePiece;
+import business.pieces.King;
+import business.pieces.Knight;
+import business.pieces.Pawn;
+import business.pieces.Queen;
+import business.pieces.Rook;
+
 import java.awt.GridLayout;
 // -------------------------------------------------------------------------
 /**
