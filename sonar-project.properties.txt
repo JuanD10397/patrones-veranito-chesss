@@ -1,0 +1,5 @@
+sonar.projectKey=patrones-veranito-chesss		
+sonar.projectName=patrones-veranito-chesss		
+sonar.projectVersion=0.1
+source.sources=src/			
+sonar.exclusions=src/*.css
